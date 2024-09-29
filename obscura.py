@@ -87,7 +87,8 @@ def main():
                          "         [1] HTTP \r\n"
                          "         [2] SMTP \r\n"
                          "         [3] POP3 \r\n"
-                         "         [4] SSH \r\n")
+                         "         [4] SSH \r\n"
+                         "         [5] FTP \r\n")
     service_version = input("[+] ENTER SERVICE VERSION: ")
     
     # Kill existing process on the port if necessary
@@ -97,7 +98,7 @@ def main():
     start_service(port, service_name, service_version)
     
 def print_ascii_art():
-    art = r"""
+    print("\033[91m" + r"""
     ▒█████   ▄▄▄▄     ██████  ▄████▄   █    ██  ██▀███   ▄▄▄      
     ▒██▒  ██▒▓█████▄ ▒██    ▒ ▒██▀ ▀█   ██  ▓██▒▓██ ▒ ██▒▒████▄    
     ▒██░  ██▒▒██▒ ▄██░ ▓██▄   ▒▓█    ─ ▓██  ▒██░▓██ ░▄█ ▒▒██  ▀█▄  
@@ -108,8 +109,9 @@ def print_ascii_art():
     ░ ░ ░ ▒   ░    ░ ░  ░  ░  ░         ░░░ ░ ░   ░░   ░   ░   ▒   
         ░ ░   ░            ░  ░ ░         ░        ░           ░  ░
                    ░          ░                                    
-    """
-    print(art)
+    """+ "\033[0m")
+    print("\033[91m                                                   By mishqat_abid \033[0m")
+
 
 if __name__ == "__main__":
     main()
