@@ -32,7 +32,6 @@ python3 --version
 ```
 
 ## Usage
-
 1. Run the Python script:
 
     ```bash
