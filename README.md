@@ -8,7 +8,6 @@ This Python-based tool simulates common network services such as HTTP, SMTP, POP
 - **Simple and Easy to Use**: Command-line tool with intuitive prompts for input.
 
 ## Requirements
-
 - Python 3.x
 - Linux/macOS (for the `lsof` command to detect processes on the port)
 - The following Python modules:
