@@ -38,7 +38,7 @@ python3 --version
     python3 obscura.py
     ```
 
-2. Enter the desired port number, service name, and service version when prompted.
+2. Enter the desired port number, service name, and version when prompted.
 
 3. The script will:
    - Kill any existing process on the specified port.
@@ -46,7 +46,6 @@ python3 --version
    - Listen for incoming connections and send a corresponding fake banner.
 
 ## Example
-
 1. Run the script:
 
     ```bash
