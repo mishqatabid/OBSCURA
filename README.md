@@ -85,7 +85,6 @@ python3 --version
     ```
 
 ## Available Services
-
 - **HTTP**: Simulates a basic HTTP web server.
 - **SMTP**: Simulates an email server (e.g., Postfix).
 - **POP3**: Simulates a POP3 mail retrieval service.
