@@ -3,7 +3,6 @@
 This is a Python-based tool that simulates common network services such as HTTP, SMTP, POP3, SSH, and more. It allows you to start a fake service on any specified port, sending custom service banners to any client connecting to the service. This is useful for network testing, honeypot setups, or security research.
 
 ## Features
-
 - **Kill Existing Processes**: Automatically kills any process running on the selected port.
 - **Simulate Various Services**: Mimic HTTP, SMTP, FTP, POP3, or SSH services, responding with realistic banners.
 - **Customizable Service Versions**: Specify the version of the service being simulated, e.g., `Apache/2.4.41`, `Postfix/3.4.13`, etc.
