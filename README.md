@@ -92,6 +92,5 @@ python3 --version
 - **FTP**: Simulates an FTP server.
 
 ## Customization
-
 You can easily add more service types by editing the `start_service()` function and defining a new banner for any custom protocol you want to mimic.
 
