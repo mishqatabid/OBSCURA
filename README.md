@@ -1,6 +1,5 @@
 # OBSCURA - Port Spoofing Tool
-
-This is a Python-based tool that simulates common network services such as HTTP, SMTP, POP3, SSH, and more. It allows you to start a fake service on any specified port, sending custom service banners to any client connecting to the service. This is useful for network testing, honeypot setups, or security research.
+This Python-based tool simulates common network services such as HTTP, SMTP, POP3, SSH, and more. It allows you to start a fake service on any specified port, sending custom service banners to any client connecting to the service. This is useful for network testing, honeypot setups, or security research.
 
 ## Features
 - **Kill Existing Processes**: Automatically kills any process running on the selected port.
